@@ -1,0 +1,54 @@
+
+# Compiled class files
+target/
+*.class
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# VS Code settings
+.vscode/
+
+# Maven dependencies
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Database
+*.h2.db
+*.mv.db
+*.sql
+
+# Application properties (contains sensitive info)
+application.properties
+application.yml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node (if frontend exists)
+node_modules/
+dist/
+
+# Docker
+docker-compose.override.yml
+
+# Test coverage reports
+coverage/
+*.lcov

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Job</title>
+</head>
+<body>
+    <h2>Add a New Job</h2>
+    <form action="/add-job" method="post">
+        <label>Title:</label>
+        <input type="text" name="title" required /><br>
+
+        <label>Company:</label>
+        <input type="text" name="company" required /><br>
+
+        <label>Location:</label>
+        <input type="text" name="location" required /><br>
+
+        <label>Description:</label>
+        <textarea name="description" required></textarea><br>
+
+        <button type="submit">Add Job</button>
+    </form>
+    <a href="/dashboard">Back to Dashboard</a>
+</body>
+</html>
